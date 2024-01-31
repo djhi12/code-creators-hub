@@ -6,8 +6,11 @@ const Home = () => {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <h1>Sample</h1>
-      <Link href="../app/pages/about-us" as="/about-us">
+      <Link href="src/app/pages/about-us" as="/about-us">
         About Us
+      </Link>
+      <Link href="src/app/pages/about-us" as="/about-us">
+        Contact Us
       </Link>
     </main>
   );
